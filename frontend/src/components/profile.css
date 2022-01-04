@@ -1,0 +1,26 @@
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+}
+.profile button{
+    padding:10px;
+    font-size:medium;
+    background-color:crimson;
+    color:white;
+    border-radius: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+.profile_info{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin:20px;
+}
+
+.profile_info h3{
+    margin: 10px;
+    font-size:1.2rem;
+}

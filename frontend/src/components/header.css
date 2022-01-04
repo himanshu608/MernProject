@@ -1,0 +1,30 @@
+.header{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:whitesmoke;
+    padding: 15px;
+}
+.header h1{
+    margin-left: 20px;
+}
+.header_routes{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content:space-between;
+    flex:0.5;
+    cursor: pointer;
+}
+
+.header_routes h2{
+    margin-right: 10px;
+    background-color:crimson;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: medium;
+}
